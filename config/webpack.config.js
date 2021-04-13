@@ -554,6 +554,15 @@ module.exports = function (webpackEnv) {
                     },
                   },
                 },
+                {
+                  loader: "style-resources-loader",
+                  options: {
+                    patterns: [
+                      path.resolve(__dirname, "../src/style/variables.less"),
+                    ],
+                    injector: "append",
+                  },
+                },
               ],
             },
             // "file" loader makes sure those assets get served by WebpackDevServer.

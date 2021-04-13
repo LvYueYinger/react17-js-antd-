@@ -151,6 +151,7 @@
   },
   "devDependencies": {
     "less": "^3.13.1",
-    "less-loader": "^7.0.2"
+    "less-loader": "^7.0.2",
+    "style-resources-loader": "^1.4.1"
   }
 }
