@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+/*
+ * @Author: your name
+ * @Date: 2021-04-13 14:10:55
+ * @LastEditTime: 2021-04-13 14:15:23
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /new-react-learn/src/App.js
+ */
+import "./App.less";
+import { Button } from "antd";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Button type="primary">Button</Button>
     </div>
   );
 }
