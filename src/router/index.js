@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-04-15 17:34:53
- * @LastEditTime: 2021-04-18 11:23:03
+ * @LastEditTime: 2021-04-18 14:19:32
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /new-react-learn/src/router/index.js
@@ -18,6 +18,7 @@ import Role from '@/view/permission/role';
 import RoleAdd from '@/view/permission/role/add';
 import User from '@/view/permission/user';
 import UserAdd from '@/view/permission/user/add';
+import Single from '@/view/single';
 
 export const routes = [
   {
@@ -165,28 +166,8 @@ export const routes = [
     path: '/single',
     title: 'single',
     hideInMenu: false,
-    component: BlankLayout,
-    children: [
-      {
-        id: 41,
-        pid: 4,
-        path: '/single',
-        title: 'single',
-        component: BlankLayout,
-        hideInMenu: true,
-        children: [
-          {
-            id: 411,
-            pid: 41,
-            path: '/single',
-            title: 'single',
-            exact: true,
-            hideInMenu: true,
-            component: User,
-          },
-        ],
-      },
-    ],
+    component: Single,
+    children: [],
   },
 ];
 
