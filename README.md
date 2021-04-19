@@ -1,6 +1,6 @@
 # 项目用途
-JS框架：该项目运用了react17（截止到项目上传2021年4月19号，react框架更新到了17.0.2版本）
-UI框架：react-antd
+JS框架：该项目运用了react17（截止到项目上传2021年4月19号，react框架更新到了17.0.2版本）\
+UI框架：react-antd \
 搭建了：create-react-app / webpack基本配置（@/less-loader/style-resources-loader) / antd库按需引入 / peittier和eslint / react-redux /react-router-dom / basic-layout整体UI架子 / 工具类axios封装 ，之后根据业务需求不断开发迭代即可
 
 # Getting Started with Create React App
